@@ -1,0 +1,26 @@
+header {
+    font-family: 'Srisakdi', Arial, sans-serif;
+    text-align: center;
+}
+
+footer {
+    font-family: 'Montserrat', Arial, sans-serif;
+    text-align: center;
+    line-height: 0.7;
+}
+
+section {
+    background-color: lightslategray;
+}
+
+nav a:visited {
+    color: orange;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav a:active {
+    text-decoration: none;
+}

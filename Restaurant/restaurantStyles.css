@@ -24,3 +24,11 @@ nav a:hover {
 nav a:active {
     text-decoration: none;
 }
+
+.display-4 {
+    text-align: center;
+}
+
+.bd-example {
+    justify-content: center;
+}

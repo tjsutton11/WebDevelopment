@@ -1,7 +1,7 @@
 function clearErrors() {
     for(var loopCounter = 0; loopCounter < document.forms["contactUs"].elements.length; loopCounter++){
-        if(document.forms["contactUs"].elements[loopCounter].parentElements.className.indexOf("has-") != -1) {
-            document.forms["contactUs"].elements[loopCounter].parentElements.className = "form-group";
+        if(document.forms["contactUs"].elements[loopCounter].parentElement.className.indexOf("has-") != -1) {
+            document.forms["contactUs"].elements[loopCounter].parentElement.className = "form-group";
         }
     }
 }
